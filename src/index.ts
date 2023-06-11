@@ -13,11 +13,11 @@ dotenv.config();
 
 const app = express();
 
-// app.use(function (req : Request, res : Response, next : NextFunction) {
-//      res.header("Access-Control-Allow-Origin", "*");
-//      res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//      next();
-//    });
+app.use(function (req : Request, res : Response, next : NextFunction) {
+     res.header("Access-Control-Allow-Origin", "*");
+     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+     next();
+   });
 
 // Enable CORS
 app.use(cors());
