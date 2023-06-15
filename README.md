@@ -1,4 +1,4 @@
-# buyCars-attryb-backend
+# BuyCars Attryb Backend
 
 The backend is implemented using Node.js with Express.js as the web framework. It utilizes MongoDB as the database for storing car listings and user information. And all of these are done in Typescript. The backend dependencies include:
 
